@@ -1,0 +1,38 @@
+/*this is just the presets that i have for the whole page*/
+* {
+    box-sizing: border-box;
+}
+:root {
+    --maincolor: rgb(169, 78, 78);
+    --maincolor2: rgb(129, 129, 129);
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*these are just the classes*/
+.navbar-brand {
+    font-size: 60px;
+    font-weight: 100;
+}
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
+}
+.card-header {
+    background-color: var(--maincolor);
+    color: white;
+}
+.card-body {
+    background-color: var(--maincolor2);
+    color: white;
+}
+
+/*this is just the ID*/
+#navbar {
+    background-color: var(--maincolor);
+    color: white;
+    font-size: 40px;
+    font-weight: 100;
+}
